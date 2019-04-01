@@ -37,7 +37,7 @@ a {
   clear: both;
 }
 
-.container-fluid {
+.container {
   margin: 0 auto;
 }
 
@@ -208,19 +208,19 @@ img {
 }
 
 .icon-tv {
-    background-color: #ff4e50;
+  background-color: #ff4e50;
 }
 
 .icon-tube {
-    background-color: #ffa507;
+  background-color: #ffa507;
 }
 
 .icon-cup {
-    background-color: #1cd7ad;
+  background-color: #1cd7ad;
 }
 
 .icon-env {
-    background-color: #4e73db;
+  background-color: #4e73db;
 }
 
 .icon {
@@ -270,8 +270,8 @@ img {
 
 .partners-btn:hover,
 .partners-btn:focus {
-    background-color: var(--c);
-    color: #fff;
+  background-color: var(--c);
+  color: #fff;
 }
 /*------------------tablet------------------*/
 @media (min-width: 768px) {
@@ -280,7 +280,7 @@ img {
     min-height: 700px;
   }
 
-  .container-fluid {
+  .container {
     width: 748px;
   }
 
@@ -318,25 +318,25 @@ img {
   }
 
   .partners {
-      margin-left: 8.625rem;
-      margin-right: 8.625rem;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
+    margin-left: 7.375rem;
+    margin-right: 7.375rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .partner {
     margin-bottom: 3.75rem;
   }
 
-  .partner:nth-child(3){
-      order: 2;
+  .partner:nth-child(3) {
+    order: 2;
   }
 
   .main-title {
-      margin-bottom: 2.125rem;
+    margin-bottom: 2.125rem;
   }
 }
 
@@ -345,8 +345,23 @@ img {
     background-image: url(../img/background-desktop.png);
   }
 
-  .container-fluid {
+  .container {
     width: 940px;
+    margin: auto;
+  }
+
+  .partners {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .partner {
+    width: 13.875rem;
+  }
+
+  .partner-icons {
+    height: 7.5625rem;
+    width: 13.875rem;
   }
 
   .header-links {
